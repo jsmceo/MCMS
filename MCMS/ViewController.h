@@ -10,4 +10,7 @@
 
 @interface ViewController : UIViewController
 
+@property NSMutableArray *creatures;
+@property (weak, nonatomic) IBOutlet UITableView *myTableView;
+
 @end

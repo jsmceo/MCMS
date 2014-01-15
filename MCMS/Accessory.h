@@ -1,5 +1,5 @@
 //
-//  MagicalCreature.h
+//  Accessory.h
 //  MCMS
 //
 //  Created by John Malloy on 1/14/14.
@@ -7,13 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Accessory.h"
 
-@interface MagicalCreature : NSObject
+@interface Accessory : NSObject
 
 @property NSString *name;
-@property NSString *description;
-@property UIImage *image;
-@property NSMutableArray *accessories;
+@property NSInteger strength;
 
 @end

@@ -24,6 +24,9 @@
 		05FCAD991885DA42006F8B21 /* CreatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FCAD981885DA42006F8B21 /* CreatureViewController.m */; };
 		05FCAD9C1885DB0B006F8B21 /* MagicalCreature.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FCAD9B1885DB0B006F8B21 /* MagicalCreature.m */; };
 		05FCAD9E1885F1CB006F8B21 /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FCAD9D1885F1CB006F8B21 /* CheckMate.framework */; };
+		05FCADA01885FC99006F8B21 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 05FCAD9F1885FC99006F8B21 /* Images */; };
+		05FCADA318860CA6006F8B21 /* Accessory.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FCADA218860CA6006F8B21 /* Accessory.m */; };
+		05FCADA61886114A006F8B21 /* BattleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FCADA51886114A006F8B21 /* BattleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,11 @@
 		05FCAD9A1885DB0B006F8B21 /* MagicalCreature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalCreature.h; sourceTree = "<group>"; };
 		05FCAD9B1885DB0B006F8B21 /* MagicalCreature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalCreature.m; sourceTree = "<group>"; };
 		05FCAD9D1885F1CB006F8B21 /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CheckMate.framework; path = ../CheckMate.framework; sourceTree = "<group>"; };
+		05FCAD9F1885FC99006F8B21 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		05FCADA118860CA6006F8B21 /* Accessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Accessory.h; sourceTree = "<group>"; };
+		05FCADA218860CA6006F8B21 /* Accessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Accessory.m; sourceTree = "<group>"; };
+		05FCADA41886114A006F8B21 /* BattleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BattleViewController.h; sourceTree = "<group>"; };
+		05FCADA51886114A006F8B21 /* BattleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BattleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,8 +135,12 @@
 				05FCAD741885D4E7006F8B21 /* Main.storyboard */,
 				05FCAD971885DA42006F8B21 /* CreatureViewController.h */,
 				05FCAD981885DA42006F8B21 /* CreatureViewController.m */,
+				05FCADA41886114A006F8B21 /* BattleViewController.h */,
+				05FCADA51886114A006F8B21 /* BattleViewController.m */,
 				05FCAD9A1885DB0B006F8B21 /* MagicalCreature.h */,
 				05FCAD9B1885DB0B006F8B21 /* MagicalCreature.m */,
+				05FCADA118860CA6006F8B21 /* Accessory.h */,
+				05FCADA218860CA6006F8B21 /* Accessory.m */,
 				05FCAD771885D4E7006F8B21 /* ViewController.h */,
 				05FCAD781885D4E7006F8B21 /* ViewController.m */,
 				05FCAD7A1885D4E7006F8B21 /* Images.xcassets */,
@@ -140,6 +152,7 @@
 		05FCAD691885D4E7006F8B21 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				05FCAD9F1885FC99006F8B21 /* Images */,
 				05FCAD6A1885D4E7006F8B21 /* MCMS-Info.plist */,
 				05FCAD6B1885D4E7006F8B21 /* InfoPlist.strings */,
 				05FCAD6E1885D4E7006F8B21 /* main.m */,
@@ -242,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05FCADA01885FC99006F8B21 /* Images in Resources */,
 				05FCAD7B1885D4E7006F8B21 /* Images.xcassets in Resources */,
 				05FCAD6D1885D4E7006F8B21 /* InfoPlist.strings in Resources */,
 				05FCAD761885D4E7006F8B21 /* Main.storyboard in Resources */,
@@ -264,7 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				05FCAD791885D4E7006F8B21 /* ViewController.m in Sources */,
+				05FCADA61886114A006F8B21 /* BattleViewController.m in Sources */,
 				05FCAD991885DA42006F8B21 /* CreatureViewController.m in Sources */,
+				05FCADA318860CA6006F8B21 /* Accessory.m in Sources */,
 				05FCAD9C1885DB0B006F8B21 /* MagicalCreature.m in Sources */,
 				05FCAD731885D4E7006F8B21 /* AppDelegate.m in Sources */,
 				05FCAD6F1885D4E7006F8B21 /* main.m in Sources */,

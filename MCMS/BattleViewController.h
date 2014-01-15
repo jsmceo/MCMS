@@ -1,5 +1,5 @@
 //
-//  CreatureViewController.h
+//  BattleViewController.h
 //  MCMS
 //
 //  Created by John Malloy on 1/14/14.
@@ -9,8 +9,8 @@
 #import "ViewController.h"
 #import "MagicalCreature.h"
 
-@interface CreatureViewController : ViewController
-@property MagicalCreature *creature;
-@property NSMutableArray *accessories;
+@interface BattleViewController : ViewController
+@property MagicalCreature *creature1;
+@property MagicalCreature *creature2;
 
 @end
